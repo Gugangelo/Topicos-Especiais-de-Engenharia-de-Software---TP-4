@@ -24,13 +24,13 @@ class ManipuladorDeString:
 
 StrFuncs = ManipuladorDeString()
 
-exemplo = "Amo muito tudo isso"
+ex = "Vamos para a UECE"
 
 
-print("String original:", exemplo)
-print("String invertida:", StrFuncs.inverter(exemplo))
-print("Número de caracteres:", StrFuncs.contar_caracteres(exemplo))
-print("String em minúsculas:", StrFuncs.minuscularizar(exemplo))
-print("String em maiúsculas:", StrFuncs.maiuscularizar(exemplo))
-print("String capitalizada:", StrFuncs.capitalizar(exemplo))
-print("String substituída:", StrFuncs.substituir(exemplo, "exemplo", "amostra"))
+print("String original:", ex)
+print("String invertida:", StrFuncs.inverter(ex))
+print("Número de caracteres:", StrFuncs.contar_caracteres(ex))
+print("String em minúsculas:", StrFuncs.minuscularizar(ex))
+print("String em maiúsculas:", StrFuncs.maiuscularizar(ex))
+print("String capitalizada:", StrFuncs.capitalizar(ex))
+print("String substituída:", StrFuncs.substituir(ex, "ex", "amostra"))
